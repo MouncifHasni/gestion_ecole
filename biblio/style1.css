@@ -1,0 +1,71 @@
+.text {
+  color: white;
+  transition: all .5s ease;
+  opacity: 1;
+}
+
+.text:hover {
+   
+  text-decoration: none;
+}
+h1.text{
+    margin-top:50%
+}
+.text1{
+    color: white;
+    transition: all .5s ease;
+  opacity: 1;
+}
+.text1:hover {
+   
+  text-decoration: none;
+}
+
+.img-fluid{
+    overflow: hidden;
+    
+}
+.img-fluid .img{
+    transition:  all 1.5s ease;
+    height:100%;
+  filter:contrast(20%); /* FF 35+ */
+   
+}
+.img-fluid:hover .img{
+    transform: scale(1.5);
+  filter:contrast(100%); /* FF 35+ */
+}
+.img-fluid:hover .text{
+   opacity: 0;
+}
+
+.card-img-top  {
+    overflow: hidden;
+    
+}
+.card-img-top {
+    transition:  all 1.5s ease;
+    height:100%;
+  /*filter:contrast(100%); /* FF 35+ */
+    opacity: 1;
+   
+}
+.card-img-top:hover  {
+    transform: scale(1.5);
+/*filter:contrast(200%); /* FF 35+ */
+    opacity: 0.3;
+}
+
+
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+    height:200px
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
